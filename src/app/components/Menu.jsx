@@ -7,6 +7,7 @@ import { VscCode } from "react-icons/vsc";
 const Menu = () => {
     const { t, i18n } = useTranslation();
     const [toggled, setToggled] = useState(false);
+    const [navColor, setNavColor] = useState('bg-gray-900'); // Estado para el color de fondo de la barra de navegación
 
     const openMenu = () => {
         setToggled(true);
@@ -20,8 +21,12 @@ const Menu = () => {
         i18n.changeLanguage(lng);
     }
 
+    const changeNavColor = (color) => {
+        setNavColor(color);
+    }
+
     return (
-        <header className='bg-gray-900 text-white flex items-center justify-between p-4 md:p-8'>
+        <header className={`${navColor} text-white flex items-center justify-between p-4 md:p-8`}>
             <div className='flex items-center'>
                 <a href='#inicio1' className='text-black font-roboto text-3xl tracking-wider flex items-center' onClick={() => changeLanguage(i18n.language === 'en' ? 'es' : 'en')}>
                     <VscCode className='mr-2' />

@@ -8,7 +8,9 @@ const Inicio = () => {
         <div className="mb-8">
           <img src="src/assets/imagenes/giphy.gif" alt="Descripción" className="rounded-lg shadow-md mx-auto" />
         </div>
-        <p className="text-lg text-gray-600 leading-relaxed">Como ingeniero de software dedicado, poseo una sólida formación académica y una sed insaciable de aprendizaje y crecimiento en el ámbito tecnológico. Mi objetivo es contribuir al desarrollo de soluciones de software robustas mientras amplío continuamente mi experiencia en programación y me mantengo al tanto de las tecnologías emergentes y las tendencias de la industria.</p>
+        <p className="text-lg text-gray-600 leading-relaxed">
+          Como ingeniero de software dedicado, poseo una sólida formación académica y una sed insaciable de aprendizaje y crecimiento en el ámbito tecnológico. Mi objetivo es contribuir al desarrollo de soluciones de software robustas mientras amplío continuamente mi experiencia en programación y me mantengo al tanto de las tecnologías emergentes y las tendencias de la industria.
+        </p>
       </div>
     </div>
   );
