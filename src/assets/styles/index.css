@@ -1,0 +1,81 @@
+/* No changes needed */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    src: url(./assets/Roboto/Roboto-Thin.ttf);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face  {
+    src: url(./assets/Roboto/Roboto-Light.ttf);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face  {
+    src: url(./assets/Roboto/Roboto-Regular.ttf);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    src: url(./assets/Roboto/Roboto-Medium.ttf);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face  {
+    src: url(./assets/Roboto/Roboto-Bold.ttf);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face  {
+    src: url(./assets/Roboto/Roboto-Black.ttf);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+  .emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta según sea necesario */
+  }
+  
+  .saludo {
+    font-size: 4rem; /* Tamaño del emoji */
+    animation: waving 2s infinite; /* Aplica la animación 'waving' durante 2 segundos y se repite infinitamente */
+  }
+  
+  @keyframes waving {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  
+
+
