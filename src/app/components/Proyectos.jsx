@@ -13,7 +13,7 @@ const Proyectos = () => {
       nombre: t('API de películas usando Django REST Framework'), 
       descripcion: t('Desarrollo de una API de películas utilizando Django REST Framework para la gestión de datos y la creación de puntos finales de API.'), 
       imagen: peliimagen , 
-      github: 'https://github.com/usuario/corazon'
+      
     },
     { 
       id: 2, 
@@ -46,7 +46,7 @@ const Proyectos = () => {
                 <h2 className="font-bold text-xl mb-4">{proyecto.nombre}</h2>
                 <p className="text-gray-600 mb-4">{proyecto.descripcion}</p>
                 <div className="flex justify-center gap-4">
-                  <a href={proyecto.github} className='text-black p-2 px-4 py-1 rounded-full bg-gray-700 hover:bg-gray-1000 transition duration-500' target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a href={proyecto.github} className='text-black p-2 px-4 py-1 rounded-full bg-gray-700 hover:bg-gray-1000 transition duration-500' target="_blank" rel="noopener noreferrer"></a>
                 </div>
               </div>
             </div>
