@@ -31,7 +31,7 @@ const Contactos = () => {
           </div>
         </div>
         <div className="absolute top-4 right-4 text-lg text-gray-700">
-          <a href="mailto:example@example.com" className="hover:underline">example@example.com</a>
+          <a href="mailto:dg4834307@gmail.com" className="hover:underline">dg4834307@gmail.com</a>
         </div>
       </div>
     </footer>
