@@ -5,6 +5,7 @@ import Habilidades from './Habilidades';
 import Inicio from './Inicio';
 import Menu from './Menu';
 import Proyectos from './Proyectos';
+import Testimonio from './Testimonio'; // Cambio aquí
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
         <Inicio/>
         <Proyectos/>
         <Habilidades/>
+        <Testimonio/> 
         <Contactos/>  
+       
       </main>
     
     </div>
@@ -27,5 +30,3 @@ function App() {
 }
 
 export default App;
-
-
