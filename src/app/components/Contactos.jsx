@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { BsEnvelope, BsGithub, BsLinkedin, BsInstagram } from 'react-icons/bs';
+import { BsEnvelope, BsGithub, BsLinkedin,  } from 'react-icons/bs';
 import { FaTelegramPlane } from 'react-icons/fa';
 
 const Contactos = () => {
@@ -18,12 +18,10 @@ const Contactos = () => {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <BsLinkedin size={40} className='hover:text-blue-500 transition duration-300 ease-in-out' />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
               <BsGithub size={40} className='hover:text-gray-500 transition duration-300 ease-in-out' />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <BsInstagram size={40} className='hover:text-pink-500 transition duration-300 ease-in-out' />
-            </a>
+        
             <a href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer">
               <FaTelegramPlane size={40} className='hover:text-blue-400 transition duration-300 ease-in-out' />
             </a>
